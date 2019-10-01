@@ -1,5 +1,5 @@
 //C program to input 5 numbers from user and display only even numbers using array.
-
+//sampoorna
 #include<stdio.h>
 int main()
 {
