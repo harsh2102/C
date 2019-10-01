@@ -9,4 +9,5 @@ int main()
   scanf("%d%d%d%d%d",&n1,&n2,&n3,&n4,&n5);
   avg=(n1+n2+n3+n4+n5)/(5.0);
   printf("Average of five numbers=%f",avg);
+  return 0;
 }
