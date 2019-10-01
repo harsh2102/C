@@ -1,3 +1,4 @@
+//sampoorna
 /*C program to find sum of the series
 9+99+999+9999+...*/
 
