@@ -2,8 +2,7 @@
 
 #include<stdio.h>
 int main()
-{  int i;
-i=1;
+{  int i=1;
 do{
      printf("%d\t",i);
      i++;
