@@ -1,7 +1,7 @@
 //C program to check whether a number is prime or not.
 
 #include<stdio.h>
-void main()
+int main()
 {
   int num,i,count=0;
   printf("Enter a number:");
@@ -20,4 +20,5 @@ void main()
   {
     printf("Not a prime number");
   }
+	return 0;
 }
