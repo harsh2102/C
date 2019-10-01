@@ -3,9 +3,9 @@
 #include<stdio.h>
 int main()
 {
-  int n1,n2,diff;
+  float n1,n2,diff;
   printf("Enter two numbers:");
-  scanf("%d%d",&n1,&n2);
+  scanf("%f%f",&n1,&n2);
   diff=n1-n2;
-  printf("Difference of two numbers=%d",diff);
+  printf("Difference of two numbers=%f",diff);
 }
