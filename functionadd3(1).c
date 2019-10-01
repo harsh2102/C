@@ -1,6 +1,6 @@
 /*C program to add two numbers using functions of
 type with arguments and return type*/
-
+//samporn
 #include<stdio.h>
 int sum(int a,int b);
 int main()
