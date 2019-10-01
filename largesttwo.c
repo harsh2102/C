@@ -14,4 +14,5 @@ int main()
   {
     printf("n2 is largest=%d",n2);
   }
+  return 0;
 }
