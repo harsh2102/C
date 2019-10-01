@@ -1,5 +1,5 @@
 //C program to find roots of a quadratic equation using function.
-
+// sampoorna
 #include<stdio.h>
 #include<math.h>
 float roots(float a,float b,float c,float d,float r1,float r2);
