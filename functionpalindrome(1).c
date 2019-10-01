@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int palindrome(int num,int i,int rev);
-void main()
+int main()
 {
   int num,i,rev=0;
   printf("Enter a number:");
@@ -16,6 +16,7 @@ void main()
   {
     printf("Not a palindrome number");
   }
+  return 0;
 }
 int palindrome(int num,int i,int rev)
 {
