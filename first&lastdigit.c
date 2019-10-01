@@ -18,5 +18,5 @@ int main()
    }
    printf("First digit of a number=%d",fd);
    printf("Last digit of a number=%d",ld);
-
+ return 0;
 }
