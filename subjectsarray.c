@@ -1,3 +1,4 @@
+//sampoorna
 #include<stdio.h>
 void main()
 {
