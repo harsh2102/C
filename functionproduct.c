@@ -3,7 +3,7 @@ of type with no arguments and no return type*/
 
 #include<stdio.h>
 void prod();
-void main()
+int main()
 {
   prod();
 }
@@ -16,5 +16,5 @@ void prod()
   scanf("%d",&b);
   prod=a*b;
   printf("Product of two numbers=%d",prod);
-
+  return 0;
 }
