@@ -27,4 +27,5 @@ for(num=1;num<=100;num++)
   if(count==0&&num!=1)
     return num;
 }
+  return 0;
 }
