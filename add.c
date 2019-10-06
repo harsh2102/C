@@ -1,12 +1,11 @@
-//C program to add two numbers.
-
 #include<stdio.h>
 int main()
 {
-  float n1,n2,add;
+  float a,b,add;
   printf("Enter two numbers:");
-  scanf("%f%f",&n1,&n2);
-  add=n1+n2;
+  scanf("%f",&a);
+  scanf("%f",&b);
+  add=a+b;
   printf("Addition of two numbers=%f",add);
   return 0;
 }
