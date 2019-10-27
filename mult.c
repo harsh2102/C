@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-  int n1,n2,mult;
+  int n1,n2,mult;   //variable declaration
   printf("Enter two numbers:");
   scanf("%d%d",&n1,&n2);
   mult=n1*n2;
