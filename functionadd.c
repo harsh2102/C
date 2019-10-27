@@ -2,7 +2,7 @@
 type with no arguments and no return type*/
 
 #include<stdio.h>
-void sum();
+void sum();  // function for adding two numbers
 void main()
 {
   sum();
