@@ -2,7 +2,7 @@
 functions(with  arguments,return type)*/
 
 #include<stdio.h>
-float avg(float n1,float n2,float n3,float n4,float n5);
+float avg(float n1,float n2,float n3,float n4,float n5);  //function to find the average of given 5 numbers
 void main()
 {
     float n1,n2,n3,n4,n5;
