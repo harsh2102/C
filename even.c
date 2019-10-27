@@ -5,7 +5,7 @@ void main()
 { int numb,i;
 printf("Enter a number:");
 scanf("%d",&numb);
-if(numb%2==0)
+if(numb%2==0) // condition to check even logic
 {
 printf("A even number");
 }
