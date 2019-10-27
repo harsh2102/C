@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main()  //main function
 {
   float a,b,add;
   printf("Enter two numbers:");
