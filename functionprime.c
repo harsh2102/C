@@ -1,7 +1,7 @@
 //C program to check given number is even or not using function.
 
 #include<stdio.h>
-int prime(int num,int i,int count);
+int prime(int num,int i,int count);  // function to check inputted number is prime or not.
 void main()
 {
   int num,i,count=0;
@@ -17,7 +17,7 @@ void main()
     printf("Not a prime number");
   }
 }
-int prime(int num,int i,int count)
+int prime(int num,int i,int count)  //body of the function defined
 {
   for(i=2;i<=num;i++)
   {
