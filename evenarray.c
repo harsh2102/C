@@ -1,6 +1,6 @@
 //C program to input 5 numbers from user and display only even numbers using array.
 //sampoorna
-#include<stdio.h>
+#include<stdio>
 int main()
 {
   int a[5],i;
