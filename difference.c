@@ -1,6 +1,6 @@
 //C program to subtract two numbers.
 
-#include<stdio.h>
+#include<stdio>
 int main()
 {
   float n1,n2,diff;
