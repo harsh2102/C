@@ -1,6 +1,6 @@
 //C program to display Fibonacci sequence.
 
-#include<stdio.h>
+#include<stdio>
 int main()
 {
   int n1=0,n2=1,t,a,i;
