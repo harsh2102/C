@@ -19,7 +19,6 @@ int main()
   printf("Addition of two array:");
   for(i=0;i<=4;i++)
   {
-
       printf("%d\t",arr3[i]);
   }
 }
