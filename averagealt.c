@@ -11,4 +11,5 @@ int main()
   }
   avg=(sum/5.0);
   printf("Average of numbers=%f",avg);
+  return 0;
 }
