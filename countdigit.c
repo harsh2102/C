@@ -13,5 +13,6 @@ int main()
     count++;
   }
   printf("Count of digits=%d",count);
-
+  
+  return 0;
 }
