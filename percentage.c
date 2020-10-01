@@ -12,4 +12,5 @@ int main()
   perc=(sum/500)*100;
 
   printf("Percentage of students in 5 subjects=%f",perc);
+  return 0;
 }
