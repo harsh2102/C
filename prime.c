@@ -3,22 +3,25 @@
 #include<stdio.h>
 int main()
 {
-  int num,i,count=0;
+  int num,i,count=1;
   printf("Enter a number:");
   scanf("%d",&num);
-  for(i=2;i<=num;i++)
-  {
-   if(num%i==0)
-   count++;
-   break;
-  }
-  if(count==0)
-  {
-    printf("A prime number");
-  }
-  else
-  {
-    printf("Not a prime number");
-  }
-	return 0;
+  for (int i = 2; i*i < n; i++)
+{
+    		if (n%i==0)
+    	{
+        	isPrime = 0;
+    	}
+}
+	if (isPrime)
+{
+    	printf ("The number %d is Prime\n", n);
+}
+else 
+{
+    	printf ("The number %d is not Prime \n", n);
+}
+
+}
+ 	return 0;
 }
