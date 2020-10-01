@@ -1,6 +1,11 @@
 C-Programming
-Following is the C-programming repository which contains all the codes a beginner must try. 
-Thank You!
+
+ This repository very clearly laid out c programming, and briefly mentions all major projrcts and programs for beginners, as well as provide them simple and easy to learn c programs
+
 Happy Coding!!
+
+Thank you!!
+
+A star will be appreciated 
 
 
