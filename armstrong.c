@@ -1,28 +1,24 @@
-/*C program to check whether a numbers is
-armstrong or not*/
+#include <stdio.h>
+int main() {
+    int num, originalNum, remainder, result = 0;
+    printf("Enter a three-digit integer: ");
+    scanf("%d", &num);
+    originalNum = num;
 
-#include<stdio.h>
-void main()
-{
-  int mynum,num,result=0,rem,n;
-  printf("Enter a number:");
-  scanf("%d",&num);
+    while (originalNum != 0) {
+       // remainder contains the last digit
+        remainder = originalNum % 10;
+        
+       result += remainder * remainder * remainder;
+        
+       // removing last digit from the orignal number
+       originalNum /= 10;
+    }
 
-  mynum=num;
+    if (result == num)
+        printf("%d is an Armstrong number.", num);
+    else
+        printf("%d is not an Armstrong number.", num);
 
-  while(mynum!=0)
-  {
-    rem=mynum%10;
-    result+=rem*rem*rem;
-    mynum=mynum/10;
-
-  }
-  if(result==num)
-  {
-    printf("An armstrong number");
-  }
-  else
-  {
-    printf("Not an armstrong number");
-  }
+    return 0;
 }
