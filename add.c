@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()  //main function
 {
-  float a,b;
+  double a,b;
   printf("Enter two numbers:");
-  scanf("%f%f",&a,&b);
-  printf("Addition of two numbers=%f",a+b);
+  scanf("%ld%ld",&a,&b);
+  printf("Addition of two numbers=%ld",a+b);
   return 0;
 }
