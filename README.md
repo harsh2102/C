@@ -1,6 +1,6 @@
 C-Programming
 
- This repository very clearly laid out c programming, and briefly mentions all major projrcts and programs for beginners, as well as provide them simple and easy to learn c programs
+ This repository very clearly laid out c programming, and briefly mentions all major projects and programs for beginners, as well as provide them simple and easy way to learn C programs.
 
 Happy Coding!!
 
