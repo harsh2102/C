@@ -1,4 +1,41 @@
 /* C program for Merge Sort */
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int i,j,k,n,temp;
+	int arr[100];
+	printf("How many numbers are u going to enter?: ");
+    scanf("%d",&n);
+
+    printf("Enter %d numbers: ",n);
+
+   for(i=0;i<n;i++)
+   {
+   	    scanf("%d",&arr[i]);
+   }
+	for(i=0;i<n-1;i++)
+	{
+		for(j=0;j<n-1-i;j++)
+		{
+			if(arr[j]>arr[j+1])
+			{
+				temp=arr[j];
+				arr[j]=arr[j+1];
+				arr[j+1]=temp;
+			}
+		}
+	}
+	printf("Sorted elements: ");
+    for(i=0;i<n;i++)
+    {
+	    printf(" %d",arr[i]);
+    }
+	getch();
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #include<stdlib> 
 #include<stdio> 
 
