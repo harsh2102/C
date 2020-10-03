@@ -2,6 +2,7 @@
 int main()  //main function
 {
   int a,b;
+  
   printf("Enter two numbers:\n");
   scanf("%d%d",&a,&b);
   
