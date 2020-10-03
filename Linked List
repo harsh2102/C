@@ -1,0 +1,133 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct node 
+{ 
+  int data;
+  struct node *next ;
+  
+}*head,*tail;
+/* Code for insertion at the beginning*/
+void insert_at_beg ()
+{
+  struct node *newnode ;
+  newnode= (struct node*)malloc(sizeof(struct node));
+  printf("Enter Data ");
+  scanf("%d",&(*newnode).data);
+  newnode->next=head;
+  head=newnode;
+  
+}
+/* Code for insertion at end*/
+void insert_at_end()
+{
+  struct node *newnode ;
+  newnode= (struct node*)malloc(sizeof(struct node));
+  printf("Enter Data ");
+  scanf("%d",&(*newnode).data);
+  newnode->next=tail->next;
+  tail->next=newnode;
+  tail=newnode;
+  
+}
+
+/* Code for insertion at ant specific position  */
+void insert_at_pos()
+{
+  int pos;
+  int count;
+  printf("Enter the position");
+  scanf("%d",&pos);
+    int i=1;
+    struct node *temp;
+    temp=head;
+    if (i<pos)
+    {
+      temp=temp->next;
+    }
+  struct node *newnode ;
+  newnode= (struct node*)malloc(sizeof(struct node));
+  printf("Enter Data ");
+  scanf("%d",&(*newnode).data);
+  newnode->next=temp->next;
+  temp->next=newnode;
+ 
+}
+
+
+
+ /* Code for Displaying Elements*/
+void display()
+{
+  tail= head;
+ while(tail->next=head);
+  {
+    printf("%d",tail->data);
+    printf("\n");
+    tail=tail->next;
+  }
+  printf("%d",tail->data);
+}
+ 
+int main ()
+{
+  
+ head=0;
+ int dec =1;
+ int count =0;
+ while(dec)
+ {
+   /* Creating node*/
+  struct node *newnode ;
+  newnode= (struct node*)malloc(sizeof(struct node));
+  printf("Enter Data ");
+  scanf("%d",&(*newnode).data);
+  newnode->next=0;
+  count++;
+  if(head==0)
+   {
+     head=newnode;
+     tail=newnode;
+   }
+  else
+   {
+     tail->next=newnode;
+     tail=newnode;
+     
+   } 
+   printf("Do you want to continue(0,1)?");
+   scanf("%d",&dec);
+   newnode->next=head;
+   
+  }
+  do
+  {
+   int choice;
+   int flag =0;
+  printf("Enter the Choice \n");
+  printf("Enter 1 to insert at beginning \n");
+  printf("Enter 2 to insert at end\n");
+  printf("Enter 3 to insert at specific position\n");
+  printf("Enter 4 to display element\n");
+  scanf("%d",&choice);
+  switch(choice)
+  {
+  case 1:insert_at_beg();
+  break;
+  case 2:insert_at_end();
+  break;
+  case 3: printf("Postion should be less than %d",count);
+  printf("\n");
+  insert_at_pos();
+  break;
+  case 4:display();
+  break;
+  default:
+  flag=1;
+  break;
+  if (flag ==0)
+  continue;
+  if(flag==1)
+  break;
+  }
+  }while(1);
+ }
