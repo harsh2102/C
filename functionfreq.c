@@ -18,8 +18,10 @@ int freq(int num,int digit,int count,int t)
   {
   t=num%10;
   if(t==digit)
+    {
   count++;
    num=num/10;
+    }
   }
   printf("The digit %d presents %d times",digit,count);
 }
