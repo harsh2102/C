@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b,m,i=1;
+    printf("Enter the Two numbers");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    m=a;
+    while(m%b!=0)
+    {
+        i++;
+        m=a*i;
+    }
+    printf("%d",m);
+}
