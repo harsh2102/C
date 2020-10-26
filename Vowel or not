@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    char c;
+    scanf("%c",&c);
+    printf("Entered Character is :%c\n",c);
+    if(((c>='a') && (c<='z')) || ((c>='A') && (c<='Z')))
+    {
+        switch(c)
+        {
+
+
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
+            printf("Entered character %c is vowel.",c);
+            break;
+        default:
+            printf("Entered character %c is not vowel",c);
+    }
+
+    }
+         else
+            printf("Entered character %c is not valid character",c);
+
+
+}
