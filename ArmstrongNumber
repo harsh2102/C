@@ -1,20 +1,27 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+#include<math.h>
+main()
 {
-    int a,n,i,sum=0;
-    printf("Enter the number:");
-    scanf("%d",&a);
-    n=a;
-    while(n!=0)
-    {
-        i=n%10;
-        sum= sum + i*i*i;
-        n=n/10;
-
-    }
-    if(sum==a)
-        printf("%d Number is Armstrong",a);
-    else
-        printf("%d is NOT Armstrong",a);
+	int n,t,r,s=0;
+	printf("Enter your choice:");
+	scanf("%d",&n);
+	t=n;
+	int c=0,x;
+	x=n;
+	while(x>0)
+	{
+	    r=x%10;
+		c=c+1;
+		x=x/10;	
+	}
+	while(n>0)
+	{
+		r=n%10;
+		s=s+pow(r,c);
+		n=n/10;
+	}
+	if(s==t)
+	printf("%d is Armstrong",t);
+	else
+	printf("%d is not Armstrong!!!",t);
 }
