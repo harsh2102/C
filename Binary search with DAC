@@ -1,0 +1,31 @@
+// Algorithm of Binary Search with Divide and Conqure
+
+DACBS(x,i,j){      
+//x=key element
+//i= Starting Index of array
+//j= Ending index of array
+
+if(i==j){
+  if(a[i]==x){
+  return i;
+   }
+
+  else{
+    return(-1);
+  }
+}
+
+else{   //Big problem
+
+mid=i+j/2;
+if(a[mid]==x){
+    return mid;
+ else{
+    if(a[mid]>x){
+    DACBS(x,i,mid-1);
+    }
+    else{
+      DACBS(x,mid+1,j);
+    }
+  }
+ }
