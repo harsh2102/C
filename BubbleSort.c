@@ -34,3 +34,18 @@ void main(){
 		printf("%d\t" , a[k]);
 	}
 }
+
+
+
+int i, j, temp;
+	int a[10] = { 56, 34, 76, 23, 73, 213, 766, 34, 77, 12 , 88};
+
+	for(i = 0; i<10; i++){
+		for(j = i+1; j<10; j++){
+			if(a[j] < a[i]){
+				temp = a[i];
+				a[i] = a[j];
+				a[j] = temp;
+			}
+		}
+	}
