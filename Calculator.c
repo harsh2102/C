@@ -8,28 +8,28 @@ int main()
     scanf("%d", &a);
     printf("Enter Second Number:");
     scanf("%d", &b);
-    printf("Enter Operater What Do You Want:");
+    printf("Enter Operator What Do You Want:");
     scanf(" %c", &op);
     switch (op)
     {
     case '+':
         result=a+b;
-        printf("The Sum Is %f", result);
+        printf("The Sum Is %d", result);
         break;
     case '-':
         result=a-b;
-        printf("The Subtract Is %f", result);
+        printf("The Subtract Is %d", result);
         break;
     case '*':
         result=a*b;
-        printf("The Multiply Is %f", result);
+        printf("The Multiply Is %d", result);
         break;
     case '/':
         result=a/b;
-        printf("The Division Is %f", result);
+        printf("The Division Is %d", result);
         break;
         default:
-    printf("Please Enter Envalid Operater");
+    printf("Please Enter a valid Operator");
         break;
     }
 }
