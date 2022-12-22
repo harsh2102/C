@@ -11,7 +11,7 @@ for(int i=0;i<n;i++)
 scanf("%d",&a[i]);
 if (a[i]%2==0)
 {
-sumeven=sumeven+a[i];
+sumeven+=a[i];
 }
 else
 {
@@ -20,5 +20,6 @@ sumodd+=a[i];
 }
 printf("SUM of Even Numbers %d", sumeven);
 printf(" \n SUM of Odd Numbers %d", sumodd);
+  return 0;
 }
 
