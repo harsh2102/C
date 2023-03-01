@@ -17,20 +17,29 @@
 void main(){
 
 	int i, j, temp;
-	int a[10] = { 56, 34, 76, 23, 73, 213, 766, 34, 77, 12 , 88};
+	printf("Enter the number of elements of the array");
+	int n;
+	scanf("%d",&n);
+	int arr[n];
+	printf("Enter the array: ");
+	for(i = 0; i < n ; i++)
+	{
+		scanf("%d",&arr[i]);
+	}
 
-	for(i = 0; i<10; i++){
-		for(j = i+1; j<10; j++){
-			if(a[j] < a[i]){
-				temp = a[i];
-				a[i] = a[j];
-				a[j] = temp;
+
+	for(i = 0; i < n; i++){
+		for(j = i+1; j < n-i-1 ; j++){
+			if(arr[j] > a[j+1]){
+				temp = arr[j];
+				arr[j] = arr[j+1];
+				arr[j+1] = temp;
 			}
 		}
 	}
 
 	printf("The Sorted Elements are\t");
-	for(int k =0; k<10; k++){
-		printf("%d\t" , a[k]);
+	for(int k =0; k<n; k++){
+		printf("%d\t" , arr[k]);
 	}
 }
