@@ -26,10 +26,14 @@ int main()
         break;
     case '/':
         result=a/b;
-        printf("The Division Is %d", result);
+        printf("The Quotient Is %d", result);
         break;
-        default:
-    printf("Please Enter a valid Operator");
+    case '%':
+        result=a%b;
+        printf("The Remainder Is %d", result);
+        break;            
+    default:
+        printf("Please Enter a valid Operator");
         break;
     }
     return 0;
