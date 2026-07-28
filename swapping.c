@@ -1,6 +1,6 @@
 //C program to swap the values of two numbers.
 
-#include<stdio>
+#include<stdio.h>
 int main()
 {
   int x,y,t;
@@ -11,4 +11,5 @@ int main()
   x=y;
   y=t;
   printf("The swapped values of x=%d and y=%d",x,y);
+  return 0;
 }

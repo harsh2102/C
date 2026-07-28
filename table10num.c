@@ -4,8 +4,6 @@
 int main()
 {
   int i,j,num;
-  printf("Enter a number:\n");
-  scanf("%d",&num);
   printf("Table of 10 numbers\n");
   for(i=1;i<=10;i++)
   {
@@ -13,5 +11,7 @@ int main()
     {
       printf("%d\t",i*j);
     }
+    printf("\n");
   }
+  return 0;
 }

@@ -28,8 +28,8 @@ int main()
         result=a/b;
         printf("The Division Is %d", result);
         break;
-        default:
-    printf("Please Enter a valid Operator");
+    default:
+        printf("Please Enter a valid Operator");
         break;
     }
     return 0;

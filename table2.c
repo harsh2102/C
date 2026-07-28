@@ -10,4 +10,5 @@ int main()
   {
     printf("%d\n",n*i);
   }
+  return 0;
 }
