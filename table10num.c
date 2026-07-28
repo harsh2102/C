@@ -11,5 +11,7 @@ int main()
     {
       printf("%d\t",i*j);
     }
+    printf("\n");
   }
+  return 0;
 }
